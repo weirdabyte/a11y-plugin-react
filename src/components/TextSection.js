@@ -20,7 +20,7 @@ const TextSection = (image, alt, rubrik) => {
   );
 };
 
-TextSection.PropTypes = {
+TextSection.propTypes = {
   image: PropTypes.string,
   alt: PropTypes.string,
   rubrik: PropTypes.string
