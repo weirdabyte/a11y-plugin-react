@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const TextSection = (image, alt, rubrik) => {
+const TextSection = ({ image, alt, rubrik }) => {
   return (
     <section className='textImage'>
       <img src={image} className='textImages' alt={alt} />
